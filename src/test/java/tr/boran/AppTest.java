@@ -17,8 +17,8 @@ public class AppTest
     public void testAdd() {
        // System.out.println("add");
         Integer a = 15;
-        Integer b = 15;
-        Integer expResult = 30;
+        Integer b = 20;
+        Integer expResult = 40;
         Integer result = App.add(a, b);
         assertEquals(expResult, result);
         assertEquals(null, App.add(15, null));
